@@ -26,6 +26,7 @@
     }
     *{
         box-sizing: border-box;
+        /* transition: 3s; */
     }
     body{
         margin: 0;
@@ -281,5 +282,109 @@
         text-decoration: line-through;
         color: #BDBDBD;
     }
-    
-    
+    .wrapper-img{
+        margin-left: 46%;
+    }
+    .wrapper-img__imgs{
+        margin-left: 16px;
+    }
+    .box-prize{
+        margin-top: 103px;
+    }
+    .box-prize>ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        align-content: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .box-prize__title{
+        text-align: center;
+    }
+    .box-prize__title{
+        margin: 0;
+        padding: 0;
+        width: 280px;
+    }
+    .box-prize__title>h3{
+        text-align: center;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 23px;
+        color: #153E84;
+    }
+    .box-prize__title>P{
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        color: #333333;
+    }
+    .wrapper-section__praise{
+        margin-top: 136px;
+        margin-bottom: 136px;
+    }
+    .section-praise{
+        width: 1180px;
+        height: 272px;
+        margin: 0 auto;
+        padding: 0 20px;
+        background: #8FAFE5;
+    }
+    .section-praise__text{
+        padding: 3px 56px 30px 97px;
+    }
+    .section-praise__text>h3{
+        margin-left: 137px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 56px;
+        color: #153E84;
+    }
+    .section-praise__text>p{
+        margin-bottom: 38px;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        /* text-align: center; */
+        line-height: 28px;
+        color: #FFFFFF;
+
+    }
+    .label__input1{
+        width: 358px;
+        height: 43px;
+        margin: 0 auto;
+        padding: 0 20px;
+        margin-left: 171px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #828282;
+    }
+    .button__input1{
+        margin: 0px 9px 0px -6px;
+        padding: 14px 32px;
+        color: white;
+        background: #4174CB;
+        border: none;
+        cursor: pointer;
+    }
+    .top-section__imgs{
+        text-align: end;
+        margin-bottom: 50px;
+        display: flex;
+        align-content: center; 
+         justify-content: space-between;
+    }
+    .prof{
+        margin-left: -80px;
+    }
+    .qiu{
+        margin-left: -136px;
+    }
